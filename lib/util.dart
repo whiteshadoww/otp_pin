@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 double w(double w) {
-  return ScreenUtil.getInstance().setWidth(w);
+  return ScreenUtil().setWidth(w);
 }
 
 double h(double h) {
-  return ScreenUtil.getInstance().setHeight(h);
+  return ScreenUtil().setHeight(h);
 }
 
 double sp(double sp) {
-  return ScreenUtil.getInstance().setSp(sp);
+  return ScreenUtil().setSp(sp);
 }
 
 //Part to copy from the source code.

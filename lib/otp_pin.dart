@@ -29,9 +29,7 @@ class _OtpWidgetState extends State<OtpWidget> {
 
   @override
   Widget build(BuildContext context) {
-    ScreenUtil.instance =
-        ScreenUtil(width: 1080, height: 2280, allowFontScaling: true)
-          ..init(context);
+    ScreenUtil.init(context, width: 1080, height: 2280, allowFontScaling: true);
 
     return Scaffold(
       backgroundColor: widget.kPrimaryColor,

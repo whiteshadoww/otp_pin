@@ -1,6 +1,6 @@
 name: otp_pin
-description: A Flutter OTP Pin package.
-version: 0.1.1
+description: A Flutter OTP Pin package. It is very minimal and allows users to input obfsicated four digit pin and gets callback when done.
+version: 0.1.2
 author: whiteshadoww
 homepage: https://github.com/whiteshadoww/otp_pin
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_screenutil: ^0.5.3
+  flutter_screenutil: ^1.0.2
 
 dev_dependencies:
   flutter_test:
